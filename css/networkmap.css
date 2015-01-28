@@ -1,0 +1,113 @@
+
+html { height: 100% }
+body { height: 100%; margin: 0; padding: 0;}
+#map{ height: 100% }
+.poly:hover {
+    fill: rgb(109, 28, 28);
+    fill-opacity: .7;
+    cursor:pointer;
+}
+.poly.lnone {
+    fill:blue;
+}
+.poly.llow {
+    fill:pink;
+}
+.poly.lmedium {
+    fill:green;
+}
+.poly.lhigh {
+    fill:orange;
+}
+.status:hover {
+    fill: rgb(109, 28, 28);
+    fill-opacity: .7;
+    cursor:pointer;
+}
+.status.l1 {
+    stroke: pink;
+    stroke-width: 4px;
+    fill:none;
+}
+.status.l2 {
+    stroke: green;
+    stroke-width: 4px;
+    fill:none;
+}
+.status.l3 {
+    stroke: orange;
+    stroke-width: 4px;
+    fill:none;
+}
+.class:hover {
+    fill: rgb(109, 28, 28);
+    fill-opacity: .7;
+    cursor:pointer;
+}
+.class.lP{
+    stroke: pink;
+    stroke-width: 4px;
+    fill:none;
+}
+.class.lS {
+    stroke: green;
+    stroke-width: 4px;
+    fill:none;
+}
+.class.lF {
+    stroke: orange;
+    stroke-width: 4px;
+    fill:none;
+}
+.bike {
+    stroke: #fff;
+    stroke-width: 4px;
+    fill:none;
+}
+.bike.b1 {
+    stroke: #E41A1C;
+}
+.bike.b2 {
+    stroke: #377EB8;
+}
+.bike.b3 {
+    stroke: #4DAF4A;
+}
+.bike.b4 {
+    stroke: #984EA3;
+}
+.bike.b5 {
+    stroke: #FF7F00;
+}
+.bike.b6 {
+    stroke: #FFFF33;
+}
+.bike.b7 {
+    stroke: #A65628;
+}
+.bike.b8 {
+    stroke: #F781BF;
+}
+.bike.b9 {
+    stroke: #999999;
+}
+.bike:hover {
+    stroke: brown;
+    cursor:pointer;
+}
+.town { 
+    stroke-width : 0;
+    fill: #000;
+    fill-opacity: .6;
+    stroke: #fff; 
+}
+
+.town:hover {
+    fill: rgb(109, 28, 28);
+    fill-opacity: .7;
+    cursor:pointer;
+}
+.bar {
+    fill: steelblue;
+    fill-opacity: .9;
+}
